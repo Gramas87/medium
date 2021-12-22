@@ -1,116 +1,96 @@
-body{ overflow-x:hidden;
+* {
+    box-sizing: unset;
+  }
+  body {
+    overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
-    
-    
-}
-#navbarNav{
+  }
+  #navbarNav {
     margin-right: 100px;
-}  
-#medium{
+  }
+  #medium {
     margin-left: 100px;
-
-}  
-#segna{
+  }
+  #segna {
     margin-top: 12px;
-   
-}
-#resume{
+  }
+  #resume {
     margin-top: 12px;
     border-radius: 1rem;
-    
-}
-#lens{
+  }
+  #lens {
     margin-top: 12px;
-}
-#bell{
-    margin-top: 12px
-}
-
-*{
-    box-sizing: unset;
-}
-*{
-    box-sizing: unset;
-}
-
-
-.iconMediumTwitter{
-    display:flex;
+  }
+  #bell {
+    margin-top: 12px;
+  }
+  
+  .iconMediumTwitter {
+    display: flex;
     justify-content: center;
-   ;
-}
-
-#main-container{
+  }
+  
+  #main-container {
     height: 100%;
-    
+  
     background-color: rgb(253, 246, 246);
     margin-left: 35px;
-    
+  
     padding-top: 10px;
-    
-}
-
-.text-muted{
+  }
+  
+  .text-muted {
     font-size: 13px;
-    
-
-}
-
-.connectToTwitter{
+  }
+  
+  .connectToTwitter {
     font-size: 13px;
     height: 40px;
     width: 73%;
     display: inline-table;
-}
-
-
-.topic-footer{
+  }
+  
+  .topic-footer {
     font-size: 14px;
-}
-
-.topic{
+  }
+  
+  .topic {
     background-color: rgb(235, 235, 235);
     width: fit-content;
-   
+  
     font-size: 13px;
     overflow: unset;
-}
-
-
-.followIcon{
+  }
+  
+  .followIcon {
     width: 14%;
     border-radius: 20rem;
     height: 10%;
-    
-}
-
-.whoToFollow{
-    display:flex;
-     justify-content:space-evenly;
-     font-size: 13px;
-}
-
-
-.followButton{
+  }
+  
+  .whoToFollow {
+    margin-left: -25px;
+  }
+  
+  .followButton {
     height: 10%;
-    width: 20%;  
-}
-
-.articleSavedIcon{
-     width:7%;
+    width: 20%;
+  }
+  
+  .articleSavedIcon {
+    width: 7%;
     border-radius: 20rem;
     height: 10%;
-}
-
-
-.partialFooter{
+  }
+  
+  .partialFooter {
     font-size: 70%;
     margin-top: 30%;
-}
-#homer{
+  }
+  #homer {
     width: 200px;
-}
-.user-icon {
+  }
+  .user-icon {
     color: black;
     font-size: 24px;
   }
@@ -120,24 +100,33 @@ body{ overflow-x:hidden;
   .post-title {
     font-size: 20px;
   }
-  #containerImg{
+  #containerImg {
     width: 200px;
-}
-#container-card {
-    padding-top: 50px;
-}
-.truncate {
-    width: 800px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
-  h3{ margin-left: 7px;
+  #container-card {
+    padding-top: 50px;
+  }
+  .truncate {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  h3 {
+    margin-left: 7px;
     font-size: 18px;
-}
-#title{
+  }
+  #title {
     font-size: 32px;
-}
-#description{
+  }
+  #description {
     font-size: 20px;
-}
+    opacity: 0.7;
+  }
+  
+  .small-text {
+    font-size: 13px;
+  }
+  .sub-title {
+    max-width: 300px;
+  }
