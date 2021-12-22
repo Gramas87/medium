@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"> <img src="medium.png" id="medium" alt="mediumLogo" width="130"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
     </nav>
     <div class="container-fluid" id="main-container">
         <div class="row mx-5">
-            <div class="col-8">
+            <div class="col-sm-12 col-lg-8">
                 <div class='border-bottom  h1 d-flex '>
                     <div class='mr-5 mt-5'>JAVASCRIPT</div>
 
@@ -261,110 +261,146 @@
             </div>
 
 
-
-            <div class=" iconMediumTwitter  col-3  text-left  pt-5 ">
+            <div id="container-right" class="iconMediumTwitter d-none d-xl-block    text-left  pt-5 border-top ">
                 <div>
 
-                    <div class='d-flex flex-column'>
-                        <span class='recommended ml-1 mb-4'>topics</span>
-                        <div class='recommendedTopics'>
-                            <div class='topic btn normal border rounded-pill w-2'>Technology</div>
-                            <div class='topic btn normal border rounded-pill w-2'>Money</div>
-                            <div class='topic btn normal border rounded-pill w-2'>Business</div>
-                            <div class='topic btn normal border rounded-pill w-2'>Productivity</div>
-                            <div class='topic btn normal border rounded-pill w-2'>Psichology</div>
-                            <div class='topic btn normal border rounded-pill w-2'>Mindfullness</div>
-                            <div class='topic btn normal border rounded-pill w-2'>Art</div>
+                    <div class='d-flex flex-column my-3'>
+                        <span class='recommended ml-1 mb-3  '>topics</span>
+                        <div class='recommendedTopics border-bottom '>
+                            <div class='topic btn normal border rounded '>Technology</div>
+                            <div class='topic btn normal border rounded '>Money</div>
+                            <div class='topic btn normal border rounded '>Business</div>
+                            <div class='topic btn normal border rounded '>Productivity</div>
+                            <div class='topic btn normal border rounded '>Psichology</div>
+                            <div class='topic btn normal border rounded '>Mindfullness</div>
+                            <div class='topic btn normal border rounded '>Art</div>
                         </div>
                     </div>
-                    <div class='pt-4 border-bottom font-weight-bold'>
-                        <span>
+                    <div id="container-right2" class='pt-4 border-bottom font-weight-bold'>
+                        <div>
                             people
-                        </span>
-                        <div class='container-fluid whoToFollow '>
-                            <img class='followIcon' src="https://picsum.photos/200" alt="">
-                            <div class='font-weight-bold'>
-                                Jesus
-                                <div class='font-weight-lighter'>
-                                    law professor
+                        </div>
+                        <div class='whoToFollow'>
+                            <div class="my-3  mb-3">
+                                <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                              
+                                <div class='font-weight-bold '>
+                                    <div>
+                                        Javascript Daily
+                                    </div>
+                                   <div class='font-weight-lighter'>
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                                   </div>
+                                   <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
                                 </div>
+                                
+                              
                             </div>
-                            <div class='followButton rounded-pill border'>
-                                follow
-
+                            <div class=" d-inline-flex mb-3">
+                                <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                              
+                                <div class='font-weight-bold '>
+                                    <div>
+                                        Javascript Daily
+                                    </div>
+                                   <div class='font-weight-lighter'>
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                                   </div>
+                                   <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
+                                </div>
+                                
+                              
+                            </div>
+                            <div class=" d-inline-flex mb-3">
+                                <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                              
+                                <div class='font-weight-bold '>
+                                    <div>
+                                        Javascript Daily
+                                    </div>
+                                   <div class='font-weight-lighter'>
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                                   </div>
+                                   <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
+                                </div>
+                                
+                              
+                            </div>
+                            <div class=" d-inline-flex mb-5">
+                                <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                              
+                                <div class='font-weight-bold '>
+                                    <div>
+                                        Javascript Daily
+                                    </div>
+                                   <div class='font-weight-lighter'>
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                                   </div>
+                                   <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
+                                </div>
+                                
+                              
                             </div>
 
+                            
+
                         </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
+                        
                     </div>
-                    <div class='pt-5 font-weight-bold articleSaved'>
-                        <span class='font-weight-bold'>
+                    <div id="pub" class="font-weight-bold articleSaved">
+                        <span class='font-weight-bold' >
                             Pubblication
                         </span>
-                        <div class='container-fluid whoToFollow '>
-                            <img class='followIcon' src="https://picsum.photos/200" alt="">
-                            <div class='font-weight-bold'>
-                                Jesus
-                                <div class='font-weight-lighter'>
-                                    law professor
+                        <div class=" d-inline-flex my-3">
+                            <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                          
+                            <div class='font-weight-bold '>
+                                <div>
+                                    Javascript Daily
                                 </div>
+                               <div class='font-weight-lighter'>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                               </div>
+                               <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
                             </div>
-                            <div class='followButton rounded-pill border'>
-                                follow
-
+                            
+                          
+                        </div>
+                        <div class=" d-inline-flex mb-3">
+                            <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                          
+                            <div class='font-weight-bold '>
+                                <div>
+                                    Javascript Daily
+                                </div>
+                               <div class='font-weight-lighter'>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                               </div>
+                               <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
                             </div>
-
+                            
+                          
                         </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
-                        </div>
-                        <div>
-                            1
+                        <div class=" d-inline-flex mb-5">
+                            <div><img class='followIcon' src="https://picsum.photos/500" alt=""></div>
+                          
+                            <div class='font-weight-bold '>
+                                <div>
+                                    Javascript Daily
+                                </div>
+                               <div class='font-weight-lighter'>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, beatae.
+                               </div>
+                               <button type="button" class="btn btn-outline-success rounded-pill">Follow</button>
+                            </div>
+                            
+                          
                         </div>
                     </div>
 
                 </div>
 
-
-
-
-
-            </div>
+            
             <!-- Optional JavaScript; choose one of the two! -->
 
             <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

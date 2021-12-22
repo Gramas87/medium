@@ -15,6 +15,11 @@ body{ overflow-x:hidden;
     margin-top: 12px;
    
 }
+
+#pub{
+    max-width: 40%;
+    font-size: 18px;
+}
 #resume{
     margin-top: 12px;
     border-radius: 1rem;
@@ -34,9 +39,9 @@ body{ overflow-x:hidden;
     box-sizing: unset;
 }
 .recommendedTopics{
-    
-    width: 35%;
-    font-size: 30px;
+    font-weight: bold;
+    width: 40%;
+    font-size: 40px;
     
 }
 #pinco-img{
@@ -117,22 +122,30 @@ body{ overflow-x:hidden;
 
 
 .followIcon{
-    width: 14%;
-    border-radius: 20rem;
-    height: 10%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
     
 }
 
 .whoToFollow{
     display:flex;
+    flex-direction: column;
      justify-content:space-evenly;
-     font-size: 13px;
+     font-size: 18px;
 }
 
+#container-right{
+    max-width: 25%;
+}
+#container-right2{
+    max-width: 40%;
+    font-size: 24px;
+}
 
 .followButton{
-    height: 10%;
-    width: 20%;  
+    height: 30%;
+    width: 30%;  
 }
 
 .articleSavedIcon{
@@ -166,7 +179,7 @@ body{ overflow-x:hidden;
     padding-top: 50px;
 }
 .truncate {
-    width: 800px;
+    width: 600px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
