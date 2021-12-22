@@ -179,7 +179,7 @@ body{ overflow-x:hidden;
     padding-top: 50px;
 }
 .truncate {
-    width: 600px;
+    width: 800px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
